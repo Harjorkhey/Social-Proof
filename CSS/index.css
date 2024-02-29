@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+h3{
+    position: relative;
+    bottom: 25px;
+    left: 75px;
+    font-weight: 600;
+}
+
+h4{
+    position: relative;
+        bottom: 32px;
+        left: 75px;
+        color: hsl(333, 80%, 67%);
+}
+
+.image{
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.container{
+    width: 80%;
+    padding: 5% 10%;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 30%;
+    text-align: left;
+}
+
+.header{
+    color: hsl(300, 43%, 22%);
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.para{
+    display: grid;
+    grid-template-columns: 200%;
+    position: relative;
+    bottom: 20px;
+    color: hsl(303, 10%, 53%);
+}
+
+.stars{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 200px;
+    left: 800px;
+}
+
+.star1, .star2, .star3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+    color: hsl(300, 43%, 22%);
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.star1{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.star2{
+    position: relative;
+    left: 10px;
+margin-left: 20px;
+}
+
+.star3{
+    position: relative;
+    margin-right: 10px;
+    left: 60px;
+}
+
+.contd{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 130px;
+}
+
+.colto, .anne, .irene{
+    border-radius: 10px;
+     font-size: 10px;
+     color: #fff;
+    width: 100%;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+    justify-content: space-around;
+}
+
+.colto{
+    padding: 10px;
+}
+
+.irene{
+    position: relative;
+        margin-left: 50px;
+        top: 30px;
+        padding: 10px;
+}
+
+.anne{
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    margin-left: 90px;
+    top: 50px;
+}
+
+.par{
+    position: relative;
+    bottom: 30px;
+    padding: 0 5px;
+}
